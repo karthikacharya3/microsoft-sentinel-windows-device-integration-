@@ -1,36 +1,37 @@
-# Microsoft-sentinel-windows-device-integration-
+# Microsoft Sentinel Home Lab
 
-Welcome to this repository!
+Welcome to my Microsoft Sentinel Home Lab repository.
 
-This repository provides a step-by-step guide to integrating Windows devices with Microsoft Sentinel for centralized security monitoring and log collection.
+This repository documents my hands-on experience with Microsoft Sentinel, where I configured a cloud-native SIEM environment and integrated Windows devices for centralized security monitoring.
 
-## What You Will Learn
+## Projects Included
 
-In this repository, you will learn how to:
+### 1. Azure Virtual Machine Integration
 
-* Integrate an Azure-hosted Windows virtual machine with Microsoft Sentinel.
-* Onboard an on-premises (non-Azure) Windows device to Microsoft Sentinel.
-* Configure the Log Analytics Workspace for data collection.
-* Enable Windows Event Log collection.
-* Verify successful device onboarding and log ingestion.
-* Analyze collected logs using Kusto Query Language (KQL).
-* Validate that security events are successfully received in Microsoft Sentinel.
+Learn how I integrated an Azure Windows Virtual Machine with Microsoft Sentinel and verified successful log ingestion using Kusto Query Language (KQL).
 
-## Repository Contents
+### 2. On-Premises Windows Device Integration *(Coming Soon)*
 
-* Azure Windows Device Integration
-* On-Premises Windows Device Integration
-* Installation and Configuration Steps
-* Log Analytics Workspace Configuration
-* Data Collection Rules (DCR)
-* Windows Event Log Collection
-* Verification of Successful Onboarding
-* Sample KQL Queries
-* Troubleshooting Tips
-* Screenshots of Each Step
+A complete guide demonstrating how I onboarded a Windows device that is not hosted in Azure and collected Windows Event Logs in Microsoft Sentinel.
 
-## Objective
+## Technologies Used
 
-The primary objective of this repository is to provide a complete, beginner-friendly guide for integrating both Azure-hosted and on-premises Windows devices with Microsoft Sentinel. It is designed to help learners understand the onboarding process, collect Windows security logs, and perform basic security monitoring using Microsoft Sentinel.
+* Microsoft Azure
+* Microsoft Sentinel
+* Log Analytics Workspace
+* Azure Monitor Agent
+* Windows Event Logs
+* Kusto Query Language (KQL)
 
-I created this project as part of my hands-on cybersecurity learning to gain practical experience with SIEM deployment, endpoint onboarding, log analysis, and security monitoring.
+## Skills Demonstrated
+
+* SIEM Deployment
+* Windows Endpoint Onboarding
+* Log Collection
+* Security Monitoring
+* Log Analysis
+* Threat Investigation
+* KQL Query Development
+
+Thank you for visiting my repository!
+
