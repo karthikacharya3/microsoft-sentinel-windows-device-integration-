@@ -6,7 +6,7 @@ This guide demonstrates how I integrated an Azure Windows Virtual Machine with M
 
 ---
 
-## Prerequisites
+## Prerequisite
 
 Before starting the integration, ensure you have:
 
